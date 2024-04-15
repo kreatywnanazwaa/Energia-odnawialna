@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+	<meta charset="utf-8"/>
+	<title>Energia wiatru</title>
+	<meta name="description" content="Serwis dotyczy odnawialnych źródeł energii."/>
+	<meta name="keywords" content="odnawialne źródła energii, energia odnawialna"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	<link rel="stylesheet" href="Style1.css" type="text/css"/>
+	
+	<script type="text/javascript">
+		
+		function oblicz()
+		{
+			var liczba1 = document.getElementById("panele").value;
+			var liczba2 = 1000;
+			var napis = "";
+			napis = parseInt(liczba1)*liczba2 + " kWh"
+			
+			document.getElementById("wynik").innerHTML = napis;
+		}
+		
+	</script>
+	
+</head>
+
+<body>
+	<div id="container">
+		<div id="logo2">
+		<center>
+			<img src="baner3.png"/>
+		</center>
+		</div>
+		
+		<a class="menu2 active" href="strona1.html">STRONA GŁÓWNA</a>
+		<a class="menu2" href="podstrona1.html">ENERGIA WODY</a>
+		<a class="menu2" href="podstrona2.html">ENERGIA SŁOŃCA</a>
+		<a class="menu2" href="podstrona3.html">ENERGIA WIATRU</a>
+		<a class="menu2" href="podstrona4.html">ENERGIA Z BIOMASY</a>
+		
+		<div id="wstęp">
+			<img src="promieniowanie.jpg"/>
+			<br></br>
+			<br></br>
+			<h2>Energia słoneczna to promieniowanie elektromagnetyczne Słońca. 
+			Powstaje na skutek reakcji fuzji jądrowych zachodzących we wnętrzu tej gwiazdy. 
+			Jest dostępna na całej powierzchni Ziemi i wykorzystywana od wieków, chociażby do ogrzewania ciała czy uprawy roślin użytkowych.</h2>
+			<br></br>
+			<h2>Panele fotowoltaiczne – energia elektryczna ze Słońca</h2>
+			<br></br>
+			<h2>Jedną z metod pozwalającą na wykorzystanie energii promieniowania słonecznego jest fotowoltaika. 
+			To zdecydowanie zaawansowana technologia, dzięki której Słońce staje się wspaniałym źródłem energii odnawialnej. 
+			Panele fotowoltaiczne przekształcają energię niesioną przez foton, czyli jednostkę światła w energię elektryczną. 
+			Dzięki ich specjalnej konstrukcji pozyskiwanie energii elektrycznej tą metodą jest bardzo łatwe i całkowicie nieinwazyjne.</h2>
+			<br></br>
+			<h2>Ogniwa fotowoltaiczne, w których zachodzi zjawisko prowadzące do produkcji energii elektrycznej, są ze sobą łączone szeregowo. 
+			Montaż powstających w ten sposób modułów fotowoltaicznych na działce pozwala na uruchomienie własnej produkcji prądu wystarczającej na pokrycie zapotrzebowania całego budynku. 
+			Panele pracują bezobsługowo i bezawaryjnie, dzięki czemu są bardzo wygodne w użytkowaniu. 
+			Oprócz nich trzeba zastosować jedynie falownik, dzięki któremu możliwa jest konwersja energii stałej produkowanej w ogniwach do postaci energii zmiennej.</h2>
+			<br></br>
+			<a href="https://flexipowergroup.pl/energia-sloneczna-jak-powstaje-jak-ja-pobierac/">Źródło3</a>
+			<br></br>
+			<br></br>
+			
+			<img src="panele.jpg"/>
+			<br></br>
+			
+			<a href="https://kasiagandor.com/2015/07/dlaczego-promieniowanie-uv-jest-zle-czyli-o-tym-co-slonce-robi-z-nasza-skora/">Źródło zdjęcia słońca</a>
+			<br></br>
+			<a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Ffirma.rp.pl%2Fprawo-i-podatki%2Fart37914481-jak-liczyc-podatek-od-nieruchomosci-dla-farm-fotowoltaicznych-wazny-wyrok-nsa&psig=AOvVaw2DWOxBpkTDtFbiMvYj2d2v&ust=1713290937646000&source=images&cd=vfe&opi=89978449&ved=0CBQQjhxqFwoTCLiswbHoxIUDFQAAAAAdAAAAABAJ">Źródło zdjęcia paneli</a>
+			
+			<br></br>
+			<br></br>
+		</div>
+		
+		<div id="obliczenia">
+	<center>
+	<h1>Oblicz ile energii mogą wyprodukować twoje panele słoneczne przez rok.</h1>
+	<h2>Aby dokonać obliczeń wpisz ilość posiadanych paneli. W obliczeniach zakładamy, że panel ma moc 1kWp i znajduje się na terenie Polski.</h2>
+	<input type="text" id="panele"/>
+	<input type="submit" value="Oblicz" onclick="oblicz()"/>
+	</center>
+	</div>
+	
+	<div id="wynik"> </div>
+		
+		<br></br>
+		
+		<div id="bottom2">
+			<br></br>
+		</div>
+	</div>
+</body>
+
+</html>

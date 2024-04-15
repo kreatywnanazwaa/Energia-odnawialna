@@ -1,0 +1,154 @@
+#container
+		{
+			width:100%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		#logo
+		{
+			align: center;
+			color: black;
+			background-color: #B3FF80;
+		
+		}
+		#logo1
+		{
+			align: center;
+			color: black;
+			background-color: #7bc6ea;
+		
+		}
+		#logo2
+		{
+			align: center;
+			color: black;
+			background-color: #ffe680;
+		
+		}
+		#logo3
+		{
+			align: center;
+			color: black;
+			background-color: #999999;
+		
+		}
+		#logo4
+		{
+			align: center;
+			color: black;
+			background-color: #a16a6a;
+		
+		}
+		#wstęp
+		{
+			float: left;
+			width:95%;
+			margin-left: 2.5%;
+			margin-right: 2.5%;
+			
+		}
+		
+		#bottom
+		{
+			clear: both;
+			background-color:#B3FF80;
+		}
+		
+		#bottom1
+		{
+			clear: both;
+			background-color:#7bc6ea;
+		}
+		
+		#bottom2
+		{
+			clear: both;
+			background-color:#ffe680;
+		}
+		
+		#bottom3
+		{
+			clear: both;
+			background-color:#999999;
+		}
+		
+		#bottom4
+		{
+			clear: both;
+			background-color:#a16a6a;
+		}
+		
+	a.menu {
+		display: inline-block;
+		width:16%;
+		padding: 15px 30px;
+		color: white;
+		text-decoration: none;
+		text-align: center;
+		background-color: black;
+	}
+	a.menu:hover {
+		background-color: #B3FF80;
+		color: black;
+	}
+	
+	a.menu1 {
+		display: inline-block;
+		width:16%;
+		padding: 15px 30px;
+		color: white;
+		text-decoration: none;
+		text-align: center;
+		background-color: black;
+	}
+	a.menu1:hover {
+		background-color: #7bc6ea;
+		color: black;
+	}
+	
+	a.menu2 {
+		display: inline-block;
+		width:16%;
+		padding: 15px 30px;
+		color: white;
+		text-decoration: none;
+		text-align: center;
+		background-color: black;
+	}
+	a.menu2:hover {
+		background-color: #ffe680;
+		color: black;
+	}
+	
+	a.menu3 {
+		display: inline-block;
+		width:16%;
+		padding: 15px 30px;
+		color: white;
+		text-decoration: none;
+		text-align: center;
+		background-color: black;
+	}
+	a.menu3:hover {
+		background-color: #999999;
+		color: black;
+	}
+	
+	a.menu4 {
+		display: inline-block;
+		width:16%;
+		padding: 15px 30px;
+		color: white;
+		text-decoration: none;
+		text-align: center;
+		background-color: black;
+	}
+	a.menu4:hover {
+		background-color: #a16a6a;
+		color: black;
+	}
+		
+		#obliczenia
+		{
+			
+		}
